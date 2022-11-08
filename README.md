@@ -21,7 +21,7 @@
 * Clone the forked git repository in to the VM instance.
 * Install gcc, make and headers using below commands:
   * sudo apt install gcc
-  * sudo apt-install make
+  * sudo apt install make
   * sudo apt-get linux-headers-$(uname -r)
 * cd into the cloned repository and run make file using **make** command.
 * Now, if you perform an **ls** operation you will find a cmpe283-1.ko file which is the a kernel object file.
